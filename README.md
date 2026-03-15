@@ -25,16 +25,15 @@ A classic Snake Game built with **Pygame** that allows users to define their own
    git clone [https://github.com/yourusername/snake-game-pygame.git](https://github.com/yourusername/snake-game-pygame.git)
 Navigate to the project folder:
 
-Bash
-cd snake-game-pygame
-Install the required dependency:
+2. Navigate to fole1
+   cd snake-game-pygame
 
-Bash
-pip install pygame
-🎮 How to Play
+3. Install the required dependency:
+   pip install pygame
+
+## 🎮 How to Play
 Run the script:
 
-Bash
 python snake.py
 Follow the prompts in your terminal to set the Width, Height, and Speed.
 
@@ -49,14 +48,14 @@ P	Pause / Unpause
 C	Play Again (after Game Over)
 Q	Quit Game
 
-🏗️ Code Structure
+## 🏗️ Code Structure
 pygame.init(): Initializes all sub-modules (including font and sound).
 
 gameLoop(): The core logic containing the event handler, movement updates, and collision checks.
 
 message(): A smart centering function using get_rect() to position text perfectly.
 
-clock.tick(): Controls the frame rate based on the user's speed input
+clock.tick(): Controls the frame rate based on the user's speed input.
 
-📜 License
+## 📜 License
 This project is open-source and available under the MIT License.
